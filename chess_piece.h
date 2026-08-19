@@ -8,12 +8,12 @@ typedef struct piece{
     char piece_name;
 
 }piece;
-#define KING 'K'||'k'
-#define QUEEN 'Q'||'q'
-#define PAWN 'P'||'p'
-#define KNIGHT 'N'||'n'
-#define BISHOP 'B'||'b'
-#define ROOK 'R'||'r'
+#define KING 'K'
+#define QUEEN 'Q'
+#define PAWN 'P'
+#define KNIGHT 'N'
+#define BISHOP 'B'
+#define ROOK 'R'
 
 
 #endif
