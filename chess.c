@@ -32,52 +32,52 @@ char (*chess_board)[8]=NULL;
 stack* new_stack=NULL;
 
 
-struct chess_game{
-    piece* b_pawn1;
-    piece* b_pawn2;
-    piece* b_pawn3;
-    piece* b_pawn4;
-    piece* b_pawn5;
-    piece* b_pawn6;
-    piece* b_pawn7;
-    piece* b_pawn8;
-    piece* b_knight_L;
-    piece* b_kngiht_R;
-    piece* b_bishop_L;
-    piece* b_bishop_R;
-    piece* b_rook_R;
-    piece* b_rook_L;
-    piece* b_king;
-    piece* b_queen;
+// struct chess_game{
+//     piece* b_pawn1;
+//     piece* b_pawn2;
+//     piece* b_pawn3;
+//     piece* b_pawn4;
+//     piece* b_pawn5;
+//     piece* b_pawn6;
+//     piece* b_pawn7;
+//     piece* b_pawn8;
+//     piece* b_knight_L;
+//     piece* b_kngiht_R;
+//     piece* b_bishop_L;
+//     piece* b_bishop_R;
+//     piece* b_rook_R;
+//     piece* b_rook_L;
+//     piece* b_king;
+//     piece* b_queen;
 
 
-    piece* w_pawn1;
-    piece* w_pawn2;
-    piece* w_pawn3;
-    piece* w_pawn4;
-    piece* w_pawn5;
-    piece* w_pawn6;
-    piece* w_pawn7;
-    piece* w_pawn8;
-    piece* w_knight_L;
-    piece* w_kngiht_R;
-    piece* w_bishop_L;
-    piece* w_bishop_R;
-    piece* w_rook_R;
-    piece* w_rook_L;
-    piece* w_king;
-    piece* w_queen;
+//     piece* w_pawn1;
+//     piece* w_pawn2;
+//     piece* w_pawn3;
+//     piece* w_pawn4;
+//     piece* w_pawn5;
+//     piece* w_pawn6;
+//     piece* w_pawn7;
+//     piece* w_pawn8;
+//     piece* w_knight_L;
+//     piece* w_kngiht_R;
+//     piece* w_bishop_L;
+//     piece* w_bishop_R;
+//     piece* w_rook_R;
+//     piece* w_rook_L;
+//     piece* w_king;
+//     piece* w_queen;
 
 
     
 
       
 
-    int turn_tracker;
-    int run_state;
-    // char (*board_state)[8];
+//     int turn_tracker;
+//     int run_state;
+//     // char (*board_state)[8];
 
-};
+// };
 //  pawn* pawn_init(char color,int x_position){
 //     if(color!='b' && color!='w'){
 //         printf("You can not define that as color");
