@@ -12,6 +12,7 @@
  #define G8 chess_board[0][6]
  #define H8 chess_board[0][7]
  
+ 
  #define A7 chess_board[1][0]
  #define B7 chess_board[1][1]
  #define C7 chess_board[1][2]
@@ -74,4 +75,7 @@
  #define F1 chess_board[7][5]
  #define G1 chess_board[7][6]
  #define H1 chess_board[7][7]
+ 
+
+ 
  #endif
